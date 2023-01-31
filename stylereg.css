@@ -1,0 +1,33 @@
+body{margin-top: 10%;
+    background-color: black;
+}#reg{
+    text-align: center;
+    border: 2px solid rebeccapurple;
+    padding: 30px 35px;
+    margin-left: 33%;
+    margin-right: 32%;
+    color: white;
+    border-radius: 20px;
+ box-shadow: 2px 2px 15 px;
+}
+#savebut{
+ background-color: black;
+ color: greenyellow;
+ border: 2px purple solid;
+ border-radius: 6px;
+}
+#regna{
+    text-align: center;
+    animation: regna 2s infinite alternate-reverse;
+    font-size: x-large;
+   
+}
+
+@keyframes regna{
+   0%{
+       color: white;
+   }
+   100%{
+       color: blueviolet;
+   }
+}
